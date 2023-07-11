@@ -1,0 +1,27 @@
+html {
+  display: flex;
+  flex-direction: row;
+  inset: 0 0 0 0;
+  position: absolute;
+  margin: 0;
+  background: linear-gradient(180deg,
+    black 0%, black 16.7%,
+    white 16.7%, white 33.3%,
+    black 33.3%, black 50%,
+    white 50%, white 66.7%,
+    black 66.7%, black 83.3%,
+    white 83.3%, white 100%);
+}
+
+body {
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%, 66.7% 100%, 50% 66.7%, 33.3% 100%);
+  background: linear-gradient(180deg,
+    red 0%, red 16.7%,
+    orange 16.7%, orange 33.3%,
+    yellow 33.3%, yellow 50%,
+    green 50%, green 66.7%,
+    blue 66.7%, blue 83.3%,
+    purple 83.3%, purple 100%);
+  aspect-ratio: 7/4;
+  margin: 0 auto;
+}
